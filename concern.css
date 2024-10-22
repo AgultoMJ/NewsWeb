@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-image: url("sample/10.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+
+.Front {
+  background-color: #black;
+  border-radius: 50px;
+  opacity: 70%;
+  height: 700px;
+  width: 800px;
+  margin-top: 0px;
+  margin-left: 300px;
+  margin-right: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  margin-left: 50px;
+  padding-top: 120px;
+}
+
+.container input {
+  padding: 15px;
+  width: 500px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+label {
+  color: pink;
+  font-size: 20px;
+}
+
+p {
+  color: pink;
+  font-size: 20px;
+}

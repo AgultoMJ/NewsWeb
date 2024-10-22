@@ -1,0 +1,183 @@
+body{
+	margin: 0;
+}
+/* style ng header */
+
+  /*header */
+.header
+	{
+		background-color: #242444;
+		padding: 5px;
+		text-align: center;
+	}
+/* style ng navigation */
+.topnav
+	{
+		overflow: hidden;
+		background-color: #0e0846;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		font-weight: bold;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+
+.topnav a
+	{
+		display: block;
+		color: rgb(174, 228, 248);
+		text-align: center;
+		padding: 20px 18px;
+		text-decoration: none;
+
+	}
+
+.topnav a:hover
+	{
+		background-color: #0e0846;
+		color: rgb(228, 253, 40);
+	}
+
+	/*latest news style */
+.latestnews
+	{
+		background-color: #0e0846;
+		padding: 1px;
+		font-weight: bold;
+	}
+.latestnews h2
+	{
+		text-align: center;
+	}
+/* para sa news header background */
+
+/*#myVideo{
+	position: fixed;
+	object-fit: cover;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	width: 100vw;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}*/
+
+.backgroundimg
+	{
+		width: 100%;
+		height: 500px;
+		padding-left: 10%;
+		padding-top: 0px;
+		text-align: center;
+		/* background-image: url("sample/r.png"); */
+		background-repeat: no-repeat;
+		background-position: 1045.33 x 250;
+		object-fit: cover;
+		box-sizing: border-box;
+	}
+
+
+
+.backgroundimg span{
+	color: white;
+	font-size: 15px;
+	text-align: right;
+	margin-bottom: 20px;
+	display: block;
+	padding-right: 15px;
+	padding-top: 15px;
+	}
+
+
+
+.bgbg
+	{
+		background-image: url("sample/10.png");
+		background-repeat: no-repeat;
+		object-fit: cover;
+	}
+
+.bgbg .inside
+	{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+/*container ng home page news*/
+#container
+	{
+		width: 300px;
+		height: 250px;
+		box-shadow: 2px 2px 2px rgb(11, 11, 11);
+		border-radius: 5px;
+		display: inline-block;
+		margin: 0px 20px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+		margin-left: 50PX;
+		box-sizing: border-box;
+	}
+/*para sa image sa loob ng container	*/
+
+#image img
+	{
+		border: 1px solid black;
+		width: 92%;
+		height: 75%;
+		text-align: center;
+		margin: 0px 10px;
+		object-fit: cover;
+	}
+
+#description
+	{
+		margin-top: 5px;
+		color: black;
+	}
+
+#description h3
+	{
+		margin: 0;
+		text-align: left;
+		color: white;
+	}
+#description p
+	{
+		margin: 0;
+		text-align: left;
+		color: white;
+	}
+
+
+.footer
+	{
+		background-color: #242444;
+		padding: 10px;
+		text-align: center;
+	}
+.footer
+	{
+		overflow: hidden;
+		background-color: #242444;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		font-weight: bold;
+		top: 0;
+	}
+
+.footer a
+	{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 20px 18px;
+		text-decoration: none;
+		position: relative;
+
+	}
